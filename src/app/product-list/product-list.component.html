@@ -1,0 +1,19 @@
+<h2>商品列表</h2>
+<div class="root">
+  <div *ngFor="let product of products" class="item">
+    <h1>
+      <a [href]="product.name" [title]="product.description"
+        >{{product.name}}</a
+      >
+    </h1>
+    <p>价格：{{product.price}}</p>
+    <p>描述:{{product.description}}</p>
+    <button class="button" (click)="share();fun()">加入购物车</button>
+  </div>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

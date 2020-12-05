@@ -1,0 +1,11 @@
+.root {
+  border: 1px solid red;
+}
+.item {
+  margin: 10px;
+  border: 1px solid green;
+}
+.button {
+  text-align: center;
+  margin: 0 auto;
+}
